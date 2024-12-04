@@ -1,0 +1,20 @@
+/* styles.css */
+
+  .redish-background {
+  
+    background-color: #ff9999;
+    font-family: "Verdana", "DejaVu Sans", Sans-serif;
+  }
+  .newfont{
+  font-size: 24px;
+  }
+  #blueish {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+  }
+  #greenish {
+    background-color: rgb(104, 255, 104);
+    font-weight: bold;
+  }
+  
+  
