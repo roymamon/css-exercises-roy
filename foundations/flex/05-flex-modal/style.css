@@ -9,7 +9,6 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,7 +18,16 @@ body {
   background: white;
   width: 480px;
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+/* Flexbox for header layout */
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between icon/header and close button */
+  margin-bottom: 16px;
 }
 
 .icon {
@@ -48,6 +56,29 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 12px; /* Add spacing between icon and header text */
+  flex: 1; /* Allow the header to take remaining space */
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  margin-left: 54px;
+  
+  
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-start;
+  gap: 4px; /* Spacing between buttons */
+  margin-left: 50px;
 }
 
 button {
